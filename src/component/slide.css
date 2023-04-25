@@ -1,0 +1,46 @@
+.container{
+    width: 12.5rem;
+    height: 2rem;
+    left: 8px;
+    top: 4px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 2, 71, 0.1);
+    border-radius: 100px;
+    position: relative;
+}
+
+button{
+    border: none;
+    background: none;
+    font-size:x-large;
+}
+
+.plus{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.sub{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.progress-bar{
+    height: 1.9rem;
+    border-radius: 1rem;
+    z-index: 1;
+    position: absolute;
+    left: 12%;
+    top: 2.5%;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.2s;
+}
+
+.legend{
+    font-weight: 600;
+}
